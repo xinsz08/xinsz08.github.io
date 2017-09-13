@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/xinsz08/xinsz08.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+test测试中
+MVC
+核心:解耦
+作用,降低各功能模块之间的耦合性,方便变更,更容易重构,最大程度上实现代码的重用
+模型 modle   主要对数据库层的封装
+试图 view   用于向用户展示结果
+模板  controller   是核心,用于处理请求,获取数据,返回结果
 
-### Markdown
+高可扩展性:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+解决向后兼容
+低耦合高内聚:模块与模块之间不要有太强的依赖
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xinsz08/xinsz08.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Django   是MVT的结构
+T:模板  template,负责呈现内容到浏览器
